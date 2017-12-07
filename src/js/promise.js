@@ -1,0 +1,1 @@
+let promise = new promise (resolver,rejeck)

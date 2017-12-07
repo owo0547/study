@@ -1,0 +1,28 @@
+{
+  "name": "study",
+  "version": "1.0.0",
+  "description": "이거슨 테스트다",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "node test.js",
+    "build": "webpack --config webpack/webpack.config.js",
+    "debug": "webpack --watch --config webpack/webpack.config.dev.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "md5": "^2.2.1"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.17",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.5",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.0",
+    "uglifyjs-webpack-plugin": "^1.1.2",
+    "webpack": "^3.9.1"
+  }
+}

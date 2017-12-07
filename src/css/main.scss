@@ -1,0 +1,28 @@
+$primary-color: red;
+
+.hello {
+    color: $primary-color;
+}
+
+.calculator {
+    position: relative;
+    width: 500px;
+    height: 160px;
+    background-color:darkgrey;
+    text-align: center;
+    padding-top: 8px;
+    margin-top: 10px;
+}
+
+.btnBox {
+    position: absolute;
+    width: 130px;
+    margin-left: 101px;
+    margin-top: 10px;
+}
+
+.textbox {
+    width: 500px;
+    height: 160px;
+    background-color:blue;
+}
